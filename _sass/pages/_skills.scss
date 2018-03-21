@@ -1,0 +1,100 @@
+.skills-title {
+    margin-bottom: 118px;
+}
+.skills-wrapper {
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    img {
+        width: 12%;
+        align-self: center;
+        cursor: pointer;
+    }:hover {
+        animation: bounce;
+        animation-duration: 1s;
+    }
+}
+.skills-last-row {
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    img {
+        margin-right: 17%;
+    }
+}
+.module {
+    background: white;
+    border-radius: 20px;
+    padding: 50px;
+    position: fixed;
+    top: 100px;
+    display: none;
+    width: 82%;
+    img {
+        width: 20%;
+        float: left;
+    }
+    h1 {
+        color: $black;
+        width: 50%;
+        font-size: 3em;
+        margin-left: 5%;
+    }
+    p {
+        font-family: $raleway;
+        color:$yellow;
+        font-size: 1.5em;
+        width: 100%;
+        float: left;
+        a {
+            color: $red;
+        }:hover {
+            color: $blue;
+        }
+    }
+    .closing-button {
+        position: relative;
+        bottom: 1vw;
+        left: 79vw;
+        color: $black;
+        font-size: 1.5rem;
+    }       
+}
+.skills-detail-header {
+    display: flex;
+    align-items: center;
+}
+
+//Mobile Breakpoint
+@media only screen and (max-width:700px) {
+    .skills-title {
+        margin-bottom: 50px;
+    }
+    .skills-wrapper {
+        flex-wrap: wrap;
+        margin-top: 0;
+        img {
+            width: 36%;
+            margin-bottom: 20px;
+        }
+    }
+    .skills-last-row {
+        justify-content: space-between;
+        img {
+            margin-right: 0;
+        }
+    }
+    .module {
+        width: 65%;
+        h1 {
+            font-size: 1.5em;
+        }
+        p {
+            font-size: 1.2em;
+        }
+        .closing-button {
+            bottom: 8vw;
+            left: 66vw;
+        }
+    }
+}

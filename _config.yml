@@ -1,0 +1,39 @@
+# Site settings
+# -------------
+baseurl     : "" # the subpath of your site, e.g. /blog/
+colour      : primary
+language    : nl
+host        : 127.0.0.1
+port        : 4000
+
+# SEO
+# ---
+title        : &title Brent De Roeck
+description  : "Portfolio website for Brent De Roeck, a webdesigner and developer."
+author       : Brent De Roeck
+tracking_id  : ""
+# url        :
+# image      :
+
+# Build settings
+# --------------
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-mentions
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+exclude:
+  - Gemfile
+  - LICENSE
+  - README.md

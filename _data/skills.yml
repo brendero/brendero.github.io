@@ -1,0 +1,74 @@
+- title: HTML5
+  tag: html
+  image: images/ProgrammingLogos/Html5.png
+  content: HTML is the first thing that we learned in our education and is the thing that gets used the most. i am fluent in html and have used this for amost all my projects.
+
+- title: css3
+  tag: css
+  image: images/ProgrammingLogos/css.png
+  content: CSS is used for all my projects to style my frontend. Most of the times i use a css preprocessor to make it a little easier to use but i can also write plain css.
+
+- title: sass
+  tag: sass
+  image: images/ProgrammingLogos/sass.svg
+  content: Sass is the preprocessor is use the most. i think that it has some very interesting features you can use that makes everything much easier and faster.
+
+- title: javascript
+  tag: js
+  image: images/ProgrammingLogos/jsLogo.png
+  content: I am fluent in javascript and i love using it. i mainly use it to make webpages more interactive but i can use it for so much more.
+
+- title: Angular
+  tag: angular
+  image: images/ProgrammingLogos/Angular.png
+  content: I wrote an application using phonegap and angular for the Krook in Ghent in participation with <a href="https://lab9k.github.io" target="_blank">Lab9K</a> and also used ionic for a few projects which also uses angular.
+
+- title: Jquery
+  tag: jquery
+  image: images/ProgrammingLogos/jquery.svg
+  content: jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML. I don't really use it that much in my projects but i am fluent in it.
+
+- title: PHP
+  tag: php
+  image: images/ProgrammingLogos/Php.png
+  content: PHP is a server side scripting language that i am fluent in. I used it in countless projects. The first project i ever made with pure PHP and a MySQl server was a blog website.
+
+- title: Laravel
+  tag: laravel
+  image: images/ProgrammingLogos/Laravel.png
+  content: Laravel is a PHP framework that is used to develop web applications using the model-view-controller structure. i used laravel to use a voting web application where u could cast your vote on a certain subject if you were logged in.
+
+- title: Wordpress
+  tag: wordpress
+  image: images/ProgrammingLogos/Wordpress.png
+  content: Wordpress is a Content Managment System where u can create your own application without the hassle of creating an own backoffice. I like to use wordpress to make it easier for the client to add his own content to the website.
+
+- title: C#
+  tag: csharp
+  image: images/ProgrammingLogos/C.png
+  content: C# is a programming language created by microsoft. I made a space invaders game using C# and a dynamic webapplication using ASP .NET Core. i am not fluent in this language but i know how to work with it.
+
+- title: ASP .NET Core
+  tag: dotnet
+  image: images/ProgrammingLogos/dotnet.svg
+  content: I wrote a dynamic webapplication in ASP .NET Core using a Postgresql server and Entityframework. this was a big project that involved making a webshop where you could order food. This was one of the most fun projects i got to do until now.
+
+- title: MySQL
+  tag: mysql
+  image: images/ProgrammingLogos/MySQL.png
+  content: I know how to write MySQL query's and how to setup this kind of server. I mostly use it together with PHP but i know how to use it With ASP .NET Core as well.
+
+- title: Python
+  tag: python
+  image: images/ProgrammingLogos/Python.png
+  content: I used python together with a Raspberry pi 3 so i could use the raspberry to use hardware and get data through sensors which i used for creating a smarthome application. 
+
+- title: Adobe Creative cloud
+  tag: adobe
+  image: images/ProgrammingLogos/Adobe.png
+  content: Adobe creative cloud has a lot of programs that i am fluent in. The programs that i am fluent in are Photoshop, Illustrator, InDesign, Lightroom Premiere Pro and, Adobe XD. I also know the basics of  After Effects
+
+- title: Vue.js
+  tag: vue
+  image: images/ProgrammingLogos/vue.png
+  content: Vue.js is an open-source progressive JavaScript framework for building user interfaces. I am not yet fluent in this framework but i'm getting there.
