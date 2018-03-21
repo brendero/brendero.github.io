@@ -26,7 +26,7 @@ layout: default
     <div class="skills-wrapper skills-last-row">
         <img src="images/ProgrammingLogos/Python.png" alt="Python logo" onclick="toggleModule(this.id)" id="python">
         <img src="images/ProgrammingLogos/Adobe.png" alt="Adobe logo" onclick="toggleModule(this.id)" id="adobe">
-        <img src="images/ProgrammingLogos/Vue.png" alt="Vue logo" onclick="toggleModule(this.id)" id="vue">
+        <img src="images/ProgrammingLogos/vue.png" alt="Vue logo" onclick="toggleModule(this.id)" id="vue">
     </div>
 </div>
 

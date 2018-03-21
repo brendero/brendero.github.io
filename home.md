@@ -2,7 +2,7 @@
 layout: default
 ---
 <div class="info-header">
-    <img src="images/DSC_0036.jpg" alt="Foto van Brent">
+    <img src="images/DSC_0036.JPG" alt="Foto van Brent">
     <div class="info-text">
         <h1>Brent De Roeck</h1>
         <div>
