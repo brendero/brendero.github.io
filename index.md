@@ -1,7 +1,7 @@
 ---
 layout: splash
 ---
-<img src="images/brent.svg" alt="brent logo" class="splashscreen-img">
+<img src="images/Brent.svg" alt="brent logo" class="splashscreen-img">
 <div class="splashscreen-wrapper">
 <h1>Brent De Roeck</h1>
 <h4>Webdesigner/Developer</h4>
