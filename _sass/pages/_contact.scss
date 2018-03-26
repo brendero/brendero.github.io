@@ -114,5 +114,8 @@
         input {
             margin-right: 4%;
         }
+        input[name=_replyto] {
+            margin-right: 0;
+        }
     }
 }
