@@ -20,7 +20,6 @@ ready( function() {
 
             xhr.onload = function() {
                 if(xhr.status === 200) {
-                    console.log("test");
                     document.documentElement.innerHTML = xhr.responseText;
                     window.open("home.html", "_self");
                 }
