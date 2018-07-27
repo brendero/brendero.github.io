@@ -72,3 +72,8 @@
   tag: vue
   image: images/ProgrammingLogos/vue.png
   content: Vue.js is an open-source progressive JavaScript framework for building user interfaces. I am not yet fluent in this framework but i'm getting there.
+
+- title: React
+  tag: react
+  image: images/ProgrammingLogos/react.png
+  content: I learned react so that i could use the react-native framework better. With this i have made a Smarthome application with react-native and firebase that controlled hardware on a raspberry pi.
