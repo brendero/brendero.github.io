@@ -112,10 +112,14 @@
     .contact-form {
         width: 100%;
         input {
-            margin-right: 4%;
+            width: 100%;
+            margin-bottom: 40px;
         }
         input[name=_replyto] {
             margin-right: 0;
+        }
+        textarea {
+            margin-top: 20px;
         }
     }
 }
