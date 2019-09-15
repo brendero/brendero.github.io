@@ -6,9 +6,9 @@
         padding-bottom: 10px;
         margin-right: 5%;
         background: transparent;
-        border: 1px solid $yellow;
+        border: 1px solid $black;
         border-width: 0 0 1px 0;
-        color: $yellow;
+        color: $black;
     }
     input[name=_replyto] {
         margin-right: 0;
@@ -17,24 +17,24 @@
         outline: none;
     }
     input::placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     input::-webkit-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     input::-moz-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     input:-ms-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
 
     input:-webkit-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     textarea {
@@ -42,9 +42,9 @@
         float: left;
         padding-bottom: 70px;
         background: transparent;
-        border: solid $yellow;
+        border: solid $black;
         border-width: 0 0 1px 0;
-        color: $yellow;
+        color: $black;
         margin-top: 100px;
         resize: none;
     }
@@ -52,30 +52,30 @@
         outline: none;
     }
     textarea::placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     textarea::-moz-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     textarea::-ms-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     textarea::-webkit-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
     textarea::-webkit-input-placeholder {
-        color: $yellow;
+        color: $black;
         font-family: $raleway;
     }
 }
 .submit-btn {
-        color: $yellow;
+        color: $black;
         background: transparent;
-        border: 1px solid $yellow;
+        border: 1px solid $black;
         font-family: $raleway;
         padding: 10px 50px 10px 50px;
         cursor: pointer;
@@ -83,8 +83,8 @@
         float: right;
 }
 .submit-btn:hover {
-    color: $black;
-    background: $yellow;
+    color: $white;
+    background: $black;
     cursor: pointer;
     transition-duration: 0.5s;
 }
@@ -95,12 +95,12 @@
     margin-bottom: 62px;
     a {
         padding: 11px;
-        color: $yellow;
+        color: $blue;
         font-size: 1.5rem;
         &:hover {
             color: $black;
             i {
-                text-shadow: 0px 0px 2px $yellow;
+                text-shadow: 0px 0px 3px $blue;
             }
         }
     }

@@ -6,15 +6,15 @@ html {
     box-sizing: border-box;
 }
 body {
-    background: $black;
+    background: $white;
 }
 h1 {
-    font-family: $playfair;
-    color: $white;
+    font-family: $raleway;
+    color: $yellow;
     font-weight: bold;
 }
 .content-wrapper {
-    padding-top: 200px;
+    padding-top: 150px;
     width: 91%;
     margin: auto;
 }

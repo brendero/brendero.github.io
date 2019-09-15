@@ -1,7 +1,8 @@
 nav {
     position: fixed;
     width: 100%;
-    background: $black;
+    background: $white;
+    box-shadow: 0 -14px 27px 0 $black;
 }
 .main-nav {
     display: -webkit-flex;
@@ -15,11 +16,11 @@ nav {
   }
   .main-nav a {
     margin: 10px;
-    font-family: $playfair;
+    font-family: $raleway;
     border-radius: 5px;
     font-weight: bold;
-    color: $white;
-    position: relative;;
+    color: $black;
+    position: relative;
     display: block;
     padding: 15px;
     padding-top: 5px;
@@ -59,15 +60,9 @@ nav {
       }
   }
   .main-nav .logo > img {
-      width: 73px;
+      width: 40px;
   }
-  .navbar-svg {
-      position: fixed;
-      top: -105px;
-      right: -85px;
-      width: 21%;
-      z-index: -1;    
-}
+
 .mobile-menu-btn {
     display: none;
     color: white;
@@ -111,7 +106,7 @@ nav {
             margin-top: 80px;
             list-style: none;
             padding: 0;
-            font-family: $playfair;
+            font-family: $raleway;
             li {
                 margin-bottom: 40px;
                 width: 27%;
@@ -157,7 +152,7 @@ nav {
       .menu-bar {
         display: block;
         position: relative;
-        background: #fff;
+        background: $black;
         width: 26px;
         height: 2px;
         border-radius: 1px;
@@ -189,16 +184,19 @@ nav {
         top: 25%;
         animation: topbar-x 500ms;
         animation-fill-mode: both;
+        background: $white;
       }
       
       .toggled .bar2 {
         opacity: 0;
+        background: $white;
       }
       
       .toggled .bar3 {
         bottom: 25%;
         animation: bottombar-x 500ms;
         animation-fill-mode: both;
+        background: $white;
       }
       
       @keyframes topbar-x {

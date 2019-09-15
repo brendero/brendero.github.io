@@ -1,8 +1,8 @@
 
-var menu = document.getElementById('menu-toggle'),
+let menu = document.getElementById('menu-toggle'),
 toggled = false;
 
-var mobileMenu = document.querySelector(".mobile-menu");
+let mobileMenu = document.querySelector(".mobile-menu");
 
   menu.addEventListener( 'click', function() {
     if ( !toggled ) {
